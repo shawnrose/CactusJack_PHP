@@ -1,0 +1,485 @@
+﻿/* ----------------------------------------------------
+/* CACTUS JACK - CSS3 - SHAWN ROSE
+------------------------------------------------------*/
+
+/*       CSS DIRECTORY
+	        1. =GLOBAL
+	        2. =MASTHEAD
+			        -NAVBAR
+	        3. =MAIN
+			        -PAGE COLS
+			        -REVERB MUSIC
+			        -LATEST NEWS
+			        -REVERB SHOWS
+			        -SHOWCASE VIDEO
+			        -SOCIAL SPRITE
+	        4. =FOOTER
+*/
+
+
+/* === 1. GLOBAL SETTINGS === */
+
+body {
+	margin: 0 0 10px 0;
+	padding: 0;
+        /*GRADIENT FOR BACKGROUND*/
+    /* IE10 Consumer Preview */ 
+    background-image: -ms-radial-gradient(center, circle farthest-corner, #FFFFFF 0%, #040404 100%);
+    /* Mozilla Firefox */ 
+    background-image: -moz-radial-gradient(center, circle farthest-corner, #FFFFFF 0%, #040404 100%);
+    /* Opera */ 
+    background-image: -o-radial-gradient(center, circle farthest-corner, #FFFFFF 0%, #040404 100%);
+    /* Webkit (Safari/Chrome 10) */ 
+    background-image: -webkit-gradient(radial, center center, 0, center center, 506, color-stop(0, #FFFFFF), color-stop(1, #040404));
+    /* Webkit (Chrome 11+) */ 
+    background-image: -webkit-radial-gradient(center, circle farthest-corner, #FFFFFF 0%, #040404 100%);
+    /* W3C Markup, IE10 Release Preview */ 
+    background-image: radial-gradient(circle farthest-corner at center, #FFFFFF 0%, #040404 100%);
+}
+
+#container {
+	margin: 0px auto;
+    width: 1000px;
+}
+
+h1 {
+	background-color: #ccc;
+	color: #000;
+    font-family: latin_modern_sans10_regular, sans-serif;
+	font-weight: bold;
+	font-size: 1.2em;
+	margin: 0;
+	padding: 0 1em;
+}
+
+h3 {
+	color: #fff;
+	font-size: 1em;
+}
+
+h4 {
+	color: #fff;
+	font-size: .85em;
+
+}
+
+p {
+	color: #999 ;
+	font-size: 1.2em;
+	margin: 5px;
+}
+
+.text {
+	padding: .5em;
+}
+
+
+li {
+	color: #999;
+	list-style-type: none;
+}
+
+img.border {
+    border: 7px solid #999;
+    margin: 1em;
+}
+
+.left {
+	float: left;
+}
+
+.right {
+	float: right;
+}
+
+.clear {
+    clear: both;
+}
+
+
+
+/* === 2. MASTHEAD === */
+
+#masthead {
+}
+
+#header {
+	background-image: url('../img/header.png');
+	background-color: #000;
+    position: relative;
+	height: 220px;
+	width: 1000px;
+}
+
+    /*---NAVBAR---*/
+
+#topNav {
+	background-color: #000;
+	overflow: hidden;
+}
+
+#topNav ul {
+	margin: 10px auto;
+}
+
+#topNav li {
+	display: inline;
+    font-family: carbontyperegular, sans-serif;
+    font-size: 1.7em;
+	font-weight: 400;
+	letter-spacing: .5px;
+	padding: 0 15px;
+	text-align: center;
+    text-decoration: none;
+	text-transform: uppercase;
+}
+
+#topNav li a:hover {
+      color: #c00;
+      background-color: #999;
+}
+
+
+/* === 3. MAIN === */
+
+#main {
+	background-color: #000;	
+	margin: 0px 0;
+	min-width: 1000px;
+	width: 100%;
+}
+
+#page_content {
+    display: inline-block;
+	padding: 5px 0 10px 0;
+    width: 1000px;
+}
+
+    /*---PAGE COLS---*/
+
+        /* -- INDEX -- */
+.col1-home {
+	width: 580px;
+	padding: 10px 3px 0px;
+	}
+
+.col2-home {
+	width: 380px;
+    padding: 10px 3px 0px;
+}
+
+.social-col {
+    margin: 0 5px 40px 0;
+}
+
+        /* -- MEDIA PAGE -- */
+.col1-media {
+	width: 560px;
+	padding: 10px 3px 0px;
+	}
+
+.col2-media {
+	width: 425px;
+    padding: 10px 5px 0 0;
+}
+
+/* -- PROMO -- */
+
+.col1-promo {
+	width: 400px;
+	margin: 10px 20px 0px;
+	}
+
+.col2-promo {
+	width: 450px;
+    margin: 100px 0 0 60px;
+    padding: 0 0 0 20px;
+}
+
+	/*---Music-Player---*/
+	
+#reverb {
+	width: 575px;
+	margin: 0 0 10px 0;
+    overflow: auto;
+	}
+
+#music-player {
+	width: 260px;
+	height: 275px;
+	margin:5px 5px 10px 0;
+	padding:0 0 20px 0;
+}
+
+
+	/*---Upcoming Shows---*/
+	
+#upcoming-shows {
+
+	display:inline-block;
+	width:310px;
+	height:275px;
+	margin:5px 0;
+	padding:0;
+	border:0;
+	
+}
+
+#latest-news {
+	display:inline-block;
+	width: 575px;
+	}
+	
+.news {
+	border-bottom: 1px solid grey;
+	padding: 0 0 10px 0;
+}
+
+
+	/*---SHOWCASE VIDEO---*/
+	
+#video {
+	margin: 0 0 1em 0;
+}
+
+	/*---SOCIAL SPRITE---*/
+	
+#social {
+	margin: 0 0 6em 0;
+	
+}
+
+#social li {
+	display: inline;
+}
+
+#social li a {
+	display: block; 
+	width: 50px;
+	height: 50px;
+	text-indent: -9999px;
+	background: url(../img/social_sprite.png);
+	float: left; 
+	margin: 0 10px;
+}
+
+#social li a#social-facebook {
+	background-position: 0px 0px;
+}
+#social li a#social-twitter {
+	background-position: -50px 0px;
+}
+#social li a#social-reverbnation {
+	background-position: -150px 0px;
+}
+#social li a#social-instagram {
+	background-position: -200px 0px;
+}
+
+
+
+
+/* COMMON LINKS */
+
+a:link {
+	color: #999;
+    text-decoration: none;
+	text-transform: uppercase;
+}
+a:visited {
+	text-decoration: none;
+	color: #999;
+}
+a:hover {
+	text-decoration: none;
+	color: #F00;
+}
+a:active {
+	text-decoration: none;
+}
+
+ /* MEDIA GALLERY PAGE */
+ #gallery {
+	 display: inline-block;
+
+}
+
+#gallery li {
+    display: block;
+    float: left;
+    width: auto;
+    margin: 0 10px 10px 10px;
+    padding: 0;
+}
+
+#gallery li a img {
+    display: block;
+    width: 115px;
+    height: 80px;
+    border: 5px solid #E0E0E0;
+    margin: 0;
+    padding: 0;
+    -webkit-transition: all 1s ease-out;
+    -moz-transition: all 1s ease-out;
+    -o-transition: all 1s ease-out;
+    -ms-transition: all 1s ease-out;
+    transition: all 1s ease-out;
+    opacity: .50;
+    filter: alpha(opacity=50);
+}
+
+#gallery li a:hover img {
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    border-color: #db4c4c;
+    -webkit-transition: all .5s ease-out;
+    -moz-transition: all .5s ease-out;
+    -o-transition: all .5s ease-out;
+    -ms-transition: all .5s ease-out;
+    transition: all .5s ease-out;
+    opacity: 1.0;
+    filter: alpha(opacity=100);
+}
+
+#media-video {
+}
+#media-video p {
+    
+	margin: 0 5px 20px 0;
+}
+
+/* BIO*/
+
+
+.player-card {
+    width: 95%;
+    border-bottom: 5px solid #999;
+    overflow: auto;
+    margin: auto;
+    padding: 10px;
+}
+
+.project-img {
+    display: inline-block;
+    padding: 10px 10px 10px 20px;
+    margin: 0 20px 0 0;
+}
+
+img.player-cardimg {
+    width: 200px;
+    height: auto;
+    margin: 0 0 10px;
+}
+
+.project-info {
+    padding: 0 0 0 20px;
+    
+}
+
+.project-title {
+    margin: 0;
+}
+
+.card-links {
+    float: right;
+ 
+}
+
+
+
+.player-cardimg {
+    /* Safari 3-4, iOS 1-3.2, Android 1.6- */
+  -webkit-border-radius: 0px 10px 0px 10px; /* top left, top right, bottom right, bottom left */
+
+  /* Firefox 1-3.6 */
+  -moz-border-radius:  0px 10px 0px 10px;
+  
+  /* Opera 10.5, IE 9, Safari 5, Chrome, Firefox 4, iOS 4, Android 2.1+ */
+  border-radius:  0px 10px 0px 10px;
+}
+
+.news {
+	border-bottom: 5px solid grey;
+	padding: 0 0 10px 0;
+}
+
+.player-links li {
+	display: inline;
+}
+
+.player-links  p{
+	display: inline;
+}
+
+    /* --- MERCH --- */
+	
+#merch-table {
+    margin: 0 auto;
+    color: white;
+}
+#merch-pics {
+    width: 1000px;
+    margin: 0 0 20px 0;
+}
+
+
+#merch-pics img {
+   width: auto;
+   height: 200px;
+   margin: 10px 20px;
+
+}
+
+/* === 4. FOOTER ===*/
+
+
+
+#footer {
+width: 1000px;
+height: 250px;
+background: #000;
+border-top: 3px solid #c00;
+text-align: center;
+padding: 0;
+margin: 0 auto;
+}
+
+
+
+.footermenus {
+	width: 240px;
+	float: left;
+	text-align: left;
+    margin: 0 0 0 40px;
+	}
+
+#copyright {
+width: 1000px;
+text-align: center;
+clear: both;
+background: #000;
+height: 10px;
+margin: 0 auto;
+}
+	#copyright p {
+	font-family: "p22-underground-1","p22-underground-2", century gothic, futura;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-size: 10px;
+	color: #fff;
+	margin: 0;
+	}
+
+
+
+
+
+
+
+
+    
+    
+    
+    
+

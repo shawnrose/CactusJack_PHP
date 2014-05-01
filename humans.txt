@@ -1,0 +1,44 @@
+                            
+/* HAND CODED */
+
+                            
+Your title: Shawn Rose
+
+                            
+Site: shawnkrose@gmail.com
+
+                            
+Twitter: @_ramblinRose
+
+                            
+Location: Fort Worth, TX
+                         
+                 
+                        [...]
+						
+
+							
+/* THANKS */
+
+							
+Name: Cheryl Rodriquez - Weatherford College Weatherford, TX
+
+						
+                 
+                        [...]
+                        
+
+                            
+/* SITE */
+
+                            
+Last update: 2014/04/29
+
+                            
+Standards: HTML5, CSS3, PHP, javaScript
+
+                            
+Components: Modernizr, jQuery, etc.
+
+                            
+Software: Visual Studio 2013, Dreamweaver CS6
